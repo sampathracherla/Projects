@@ -1,0 +1,1 @@
+java -cp C:\Users\Sampath\workspace1\TestNG\bin;C:\Sampath\Java\TestNGJar org.testng.TestNG Testng.xml
