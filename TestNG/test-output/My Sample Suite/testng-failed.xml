@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]" parallel="tests">
+  <test name="Test Case B(failed)" parallel="tests">
+    <classes>
+      <class name="testcases.TestB">
+        <methods>
+          <include name="testB"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- testcases.TestB -->
+    </classes>
+  </test> <!-- Test Case B(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->
